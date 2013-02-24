@@ -1,0 +1,1 @@
+define(["jquery","lodash","backbone","text!templates/dashboard/page.html"],function(e,t,n,r){var i=n.View.extend({el:".page",render:function(){e(this.el).html(r)}});return i});

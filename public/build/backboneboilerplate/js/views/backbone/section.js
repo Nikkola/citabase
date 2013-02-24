@@ -1,0 +1,1 @@
+define(["jquery","lodash","backbone","vm"],function(e,t,n,r){var i=n.View.extend({el:".content",render:function(){this.$el.html('<h4 style="color: red;">Incomplete</h4>')}});return i});

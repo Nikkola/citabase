@@ -1,0 +1,64 @@
+<h2>База цитат</h2>
+
+
+
+<div class="row-fluid quotebase">
+
+  <div class="span3"></div>
+
+  <div class="span6">
+    
+      <div id="editQuote"></div>
+
+      <!-- Таблица цитат -->
+      <table id="user-citabase-table" class="table table-bordered table-hover">
+        <thead>
+        	<tr>
+            <th>#</th>
+            <th>Цитата</th>
+      	  	<th>Автор</th>
+      	  	<th></th>
+        	</tr>
+        </thead>
+          <!-- сюда приходят все цитаты -->
+      </table>
+
+
+        <!-- Шаблон всех цитат вставляемых в таблицу -->
+        <script id="allQuotesTemplate" type="text/template">
+          <td>{{id}}</td>
+          <td>{{quote}}</td>
+          <td>{{author}}</td>
+          <td>
+            <a href="#citabase/{{user_id}}/{{id}}/edit" class="edit">Редактировать</a>
+            <a href="#citabase/{{user_id}}/{{id}}" class="delete">Удалить</a>
+          </td>
+        </script>
+
+
+        <!-- Шаблон редактирования цитаты -->
+        <script id="editQuoteTemplate" type="text/template">
+          <h2>Редактировать цитату: {{author}} </h2> 
+          <form id="editContact" action="" class="module">
+            <div>
+              <label for="edit_author">Автор: </label>
+              <input type="text" id="edit_author" name="edit_author" value="{{author}}">
+            </div>
+
+            <div>
+              <label for="edit_quote">Last Name: </label>
+              <textarea type="text" id="edit_quote" name="edit_quote" value="">{{quote}}</textarea>
+            </div>
+
+            <div>
+              <input class="btn" id="editQuote" type="submit" value="Сохранить изменения">
+              <button class="btn" type="button" class="cancel">Отмена</button>
+            </div>
+          </form>
+        </script>
+
+    </div>
+
+    <div class="span3"></div>
+
+</div>

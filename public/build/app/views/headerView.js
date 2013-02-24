@@ -1,0 +1,1 @@
+define(["jquery","lodash","backbone","events","app"],function(e,t,n,r,i){i.Views.HeaderView=n.View.extend({})});

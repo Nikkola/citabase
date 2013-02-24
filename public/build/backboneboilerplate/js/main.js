@@ -1,0 +1,1 @@
+require(["views/app","router","vm"],function(e,t,n){var r=n.create({},"AppView",e);r.render(),t.initialize({appView:r})});

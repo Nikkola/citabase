@@ -1,0 +1,51 @@
+<h2>Регистрация</h2>
+
+<div class="registration-alert alert alert-error h">
+  <a class="close"  href="#">&times;</a>
+  <span></span>
+</div>
+
+
+<form class="registration-form " action="">
+	<fieldset class="control-group ">
+	  <label class="control-label" for="username">Имя:</label>
+	  <div class="controls">
+	    <input name="username" type="text" id="username">
+	  </div>
+	</fieldset>
+	<fieldset class="control-group ">
+	  <label class="control-label email-label" for="email">Email:</label>
+	  <div class="controls">
+	    <input name="email" type="text" id="email">
+	  </div>
+	</fieldset>
+	<fieldset class="control-group ">
+	  <label class="control-label" for="password">Пароль:</label>
+	  <div class="controls">
+	    <input name="password" type="password" id="password">
+	  </div>
+	</fieldset>
+	<fieldset class="control-group ">
+	  <label class="control-label" for="passwordConfirmation">Подтверждение пароля:</label>
+	  <div class="controls">
+	    <input name="passwordConfirmation" type="password" id="passwordConfirmation">
+	  </div>
+	</fieldset>
+	<fieldset class="">
+		<button type="submit" class="registr-btn btn disabled" disabled="disabled">Зарегистрироваться</button>
+	</fieldset>
+</form>	
+
+
+<div id="reg-complete-popup" class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h5>Поздравляем! Регистрация прошла успешно!</h5>
+  </div>
+  <div class="modal-body">
+    <p>Теперь вы можете добавлять свои цитаты и полноценно пользоваться Цитабазой.</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn close-reg-popup" data-dismiss="modal" aria-hidden="true">Закрыть</a>
+  </div>
+</div>

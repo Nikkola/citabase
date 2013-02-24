@@ -1,0 +1,1 @@
+define(["jquery","lodash","backbone","vm","text!templates/manager/page.html"],function(e,t,n,r,i){var s=n.View.extend({el:".page",render:function(){this.$el.html(i)},events:{"click .add-view":"addView"},counter:1,addView:function(){var e=n.View.extend({}),t=r.create(this,"RandomView "+this.counter,e);return this.counter++,!1}});return s});

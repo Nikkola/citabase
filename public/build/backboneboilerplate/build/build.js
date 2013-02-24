@@ -1,0 +1,1 @@
+({name:"../js/main",baseUrl:"../js",out:"output/js/main.js",findNestedDependencies:!0,mainConfigFile:"../js/main.js"});

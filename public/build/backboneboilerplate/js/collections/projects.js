@@ -1,0 +1,1 @@
+define(["jquery","lodash","backbone","models/projects"],function(e,t,n,r){var i=n.Collection.extend({model:r,initialize:function(){}});return i});

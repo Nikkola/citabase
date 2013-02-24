@@ -1,0 +1,1 @@
+define(["lodash","backbone"],function(e,t){var n=t.Model.extend({defaults:{score:10},initialize:function(){}});return n});

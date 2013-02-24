@@ -1,0 +1,1 @@
+define(["jquery","lodash","backbone","text!templates/backbone/sidemenu.html"],function(e,t,n,r){var i=n.View.extend({el:".submenu",render:function(){e(this.el).html(r)}});return i});

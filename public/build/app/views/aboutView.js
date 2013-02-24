@@ -1,0 +1,1 @@
+define(["jquery","lodash","backbone","events","app","text!../../../templates/about.phtml"],function(e,t,n,r,i,s){i.Views.AboutView=n.View.extend({el:".main",initialize:function(){},render:function(){this.$el.html(s)},events:{}});var o=new i.Views.AboutView;return o});

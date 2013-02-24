@@ -1,0 +1,285 @@
+/*FONTS*/
+
+@font-face {
+    font-family: 'cuprumbold';
+    src: url('../fonts/cuprum-bold-webfont.eot');
+    src: url('../fonts/cuprum-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cuprum-bold-webfont.woff') format('woff'),
+         url('../fonts/cuprum-bold-webfont.ttf') format('truetype'),
+         url('../fonts/cuprum-bold-webfont.svg#cuprumbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cuprumbold_italic';
+    src: url('../fonts/cuprum-bolditalic-webfont.eot');
+    src: url('../fonts/cuprum-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cuprum-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/cuprum-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/cuprum-bolditalic-webfont.svg#cuprumbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cuprumitalic';
+    src: url('../fonts/cuprum-italic-webfont.eot');
+    src: url('../fonts/cuprum-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cuprum-italic-webfont.woff') format('woff'),
+         url('../fonts/cuprum-italic-webfont.ttf') format('truetype'),
+         url('../fonts/cuprum-italic-webfont.svg#cuprumitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'philosopheritalic';
+    src: url('../fonts/philosopher-italic-webfont.eot');
+    src: url('../fonts/philosopher-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/philosopher-italic-webfont.woff') format('woff'),
+         url('../fonts/philosopher-italic-webfont.ttf') format('truetype'),
+         url('../fonts/philosopher-italic-webfont.svg#philosopheritalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'philosopherbold';
+    src: url('../fonts/philosopher-bold-webfont.eot');
+    src: url('../fonts/philosopher-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/philosopher-bold-webfont.woff') format('woff'),
+         url('../fonts/philosopher-bold-webfont.ttf') format('truetype'),
+         url('../fonts/philosopher-bold-webfont.svg#philosopherbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'philosopherbold_italic';
+    src: url('../fonts/philosopher-bolditalic-webfont.eot');
+    src: url('../fonts/philosopher-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/philosopher-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/philosopher-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/philosopher-bolditalic-webfont.svg#philosopherbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'philosopherregular';
+    src: url('../fonts/philosopher-regular-webfont.eot');
+    src: url('../fonts/philosopher-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/philosopher-regular-webfont.woff') format('woff'),
+         url('../fonts/philosopher-regular-webfont.ttf') format('truetype'),
+         url('../fonts/philosopher-regular-webfont.svg#philosopherregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scadabold';
+    src: url('../fonts/scada-bold-webfont.eot');
+    src: url('../fonts/scada-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/scada-bold-webfont.woff') format('woff'),
+         url('../fonts/scada-bold-webfont.ttf') format('truetype'),
+         url('../fonts/scada-bold-webfont.svg#scadabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scadabold_italic';
+    src: url('../fonts/scada-bolditalic-webfont.eot');
+    src: url('../fonts/scada-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/scada-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/scada-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/scada-bolditalic-webfont.svg#scadabold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scadaitalic';
+    src: url('../fonts/scada-italic-webfont.eot');
+    src: url('../fonts/scada-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/scada-italic-webfont.woff') format('woff'),
+         url('../fonts/scada-italic-webfont.ttf') format('truetype'),
+         url('../fonts/scada-italic-webfont.svg#scadaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scadaregular';
+    src: url('../fonts/scada-regular-webfont.eot');
+    src: url('../fonts/scada-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/scada-regular-webfont.woff') format('woff'),
+         url('../fonts/scada-regular-webfont.ttf') format('truetype'),
+         url('../fonts/scada-regular-webfont.svg#scadaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fontin_sans_crbold';
+    src: url('../fonts/fontinsans_cyrillic_b_46b-webfont.eot');
+    src: url('../fonts/fontinsans_cyrillic_b_46b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fontinsans_cyrillic_b_46b-webfont.woff') format('woff'),
+         url('../fonts/fontinsans_cyrillic_b_46b-webfont.ttf') format('truetype'),
+         url('../fonts/fontinsans_cyrillic_b_46b-webfont.svg#fontin_sans_crbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fontin_sans_crbold_italic';
+    src: url('../fonts/fontinsans_cyrillic_bi_46b-webfont.eot');
+    src: url('../fonts/fontinsans_cyrillic_bi_46b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fontinsans_cyrillic_bi_46b-webfont.woff') format('woff'),
+         url('../fonts/fontinsans_cyrillic_bi_46b-webfont.ttf') format('truetype'),
+         url('../fonts/fontinsans_cyrillic_bi_46b-webfont.svg#fontin_sans_crbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fontin_sans_critalic';
+    src: url('../fonts/fontinsans_cyrillic_i_46b-webfont.eot');
+    src: url('../fonts/fontinsans_cyrillic_i_46b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fontinsans_cyrillic_i_46b-webfont.woff') format('woff'),
+         url('../fonts/fontinsans_cyrillic_i_46b-webfont.ttf') format('truetype'),
+         url('../fonts/fontinsans_cyrillic_i_46b-webfont.svg#fontin_sans_critalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fontin_sans_crregular';
+    src: url('../fonts/fontinsans_cyrillic_r_46b-webfont.eot');
+    src: url('../fonts/fontinsans_cyrillic_r_46b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fontinsans_cyrillic_r_46b-webfont.woff') format('woff'),
+         url('../fonts/fontinsans_cyrillic_r_46b-webfont.ttf') format('truetype'),
+         url('../fonts/fontinsans_cyrillic_r_46b-webfont.svg#fontin_sans_crregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fontin_sans_cr_scregular';
+    src: url('../fonts/fontinsans_cyrillic_sc_46b-webfont.eot');
+    src: url('../fonts/fontinsans_cyrillic_sc_46b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fontinsans_cyrillic_sc_46b-webfont.woff') format('woff'),
+         url('../fonts/fontinsans_cyrillic_sc_46b-webfont.ttf') format('truetype'),
+         url('../fonts/fontinsans_cyrillic_sc_46b-webfont.svg#fontin_sans_cr_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+/*helpers*/
+.fl {float:left;}
+.fr {float:right;}
+.nclear {clear:both;}
+.h {display:none !important;}
+
+/*main*/
+/*.wrapper {width: 1170px; margin: 0 auto;}*/
+header {background: #fce305; padding:5px;}
+.main {min-height: 755px !important;}
+.main-nav {padding-top:20px;}
+.main-nav ul li {display:inline-block; padding: 0 5px;}
+
+.logo h1 {padding-right:5px;}
+.slogan { padding-top: 10px; font-weight: bold;}
+
+.add-quote {margin-left:5px;}
+
+/*login and profile*/
+.login {/*min-width: 220px;*/ /*background: #fce305;*/}
+.login-send {margin-top:0 !important;}
+.profile-block {margin: 5px 0 5px 0;}
+.reg-link {padding-right: 5px;}
+.profile-heading {padding-right: 10px; font-weight: bold;}
+.logout-btn {margin: -1px 0  0 10px!important;}
+
+.login-form {margin: 5px 0 5px 0!important;}
+.login-form label {display:none !important;}
+.login-alert { margin-top: 10px; }
+
+/*form*/
+.label-inline {}
+.controls .error {display:inline-block; padding-left: 5px;}
+
+#add-quote-form {margin-bottom: 50px;}
+
+/*datatables*/
+.dataTables_filter {display:inline-block;}
+
+
+/*MAIN PAGE QUOTES*/
+.quote-block {padding-top:100px;}
+.rand-quote {line-height: 52px; font-size: 55px; font-family: 'fontin_sans_crbold';}
+.rand-author {line-height: 102px; font-size: 55px; font-family: 'fontin_sans_crbold_italic'; font-style: italic;}
+
+.registration-alert {width: 350px;}
